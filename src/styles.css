@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+   Poppins font import
+ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+/* Global color variable */
+
+:root {
+  --image-converter-yellow: #d9ef45;
+  --image-converter-dark-blue: #151642;
+  --image-converter-blue: #1a73e8;
+  --image-converter-white: #ffffff;
+  --image-converter-black: #000;
+  --image-converter-gray: #a7a9c2;
+  --image-converter-pink: #f9b7b9;
+  --image-converter-light-gray: #c3c5d2;
+  --image-converter-lin-grad-ryt-lft: linear-gradient(
+    90deg,
+    #151642 0%,
+    #151642 50%,
+    #d9ef45 52.78%,
+    #d9ef45 108.33%
+  );
+  --image-converter-lin-grad-lft-ryt: linear-gradient(
+    90deg,
+    #d9ef45 0%,
+    #d9ef45 57.81%,
+    #161743 57.81%,
+    #161743 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.light-bold {
+  font-weight: 400;
+}
+
+.lin-grad-ryt-lft {
+  background: var(--image-converter-lin-grad-ryt-lft);
+}
+.lin-grad-lft-ryt {
+  background: var(--image-converter-lin-grad-lft-ryt);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.fixed {
+  position: fixed;
+}
+
+button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
