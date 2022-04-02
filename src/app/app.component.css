@@ -158,3 +158,30 @@
   place-items: center;
   /* background: var(--image-converter-black); */
 }
+
+/* on Mobile */
+@media only screen and (max-width: 768px) {
+  .navigator .logo {
+    left:30%;
+  }
+  
+  .navigator. routes {
+    display: none; 
+  }
+  
+  .body-main {
+    background : var(--image-converter-lin-grad-top-btm);
+    display : table;
+    width :28rem; 
+    height :55rem; 
+    margin-left: 45px; 
+  }
+  .test-api {
+    display: none;
+  }
+  
+  .upload-image-container {
+    top: 30%;
+  }
+}
+
