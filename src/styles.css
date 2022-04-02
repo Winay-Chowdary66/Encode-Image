@@ -19,14 +19,22 @@
     90deg,
     #151642 0%,
     #151642 50%,
-    #d9ef45 52.78%,
-    #d9ef45 108.33%
+    #d9ef45 50%,
+    #d9ef45 100%
   );
   --image-converter-lin-grad-lft-ryt: linear-gradient(
     90deg,
     #d9ef45 0%,
-    #d9ef45 57.81%,
-    #161743 57.81%,
+    #d9ef45 50%,
+    #161743 50%,
+    #161743 100%
+  );
+  
+  --image-converter-lin-grad-top-btm: linear-gradient(
+    180deg; 
+    #d9ef45 0%,
+    #d9ef45 50%,
+    #161743 50%,
     #161743 100%
   );
 }
