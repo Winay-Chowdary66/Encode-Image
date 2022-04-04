@@ -148,7 +148,7 @@
   box-shadow: -4px -4px 20px rgb(0 0 0 / 5%), 4px 4px 20px rgb(0 0 0 / 20%);
   border-radius: 10px;
   width: 125%;
-  height: 17vh;
+  min-height: 17vh;
   transition: width 250ms, height 250ms linear;
 }
 
